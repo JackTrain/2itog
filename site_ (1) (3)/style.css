@@ -1,0 +1,189 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Roboto'),
+		url('/fonts/Roboto-Regular.ttf') format('ttf'),
+}
+
+.nav{
+    max-width: 100%;
+    min-height:  7vh;
+    background: #000124;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.nav ul{
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+}
+.nav ul li a{
+	font-family: Verdana;
+	text-decoration:none;
+	color: #ffffff;
+}
+.nav h3{
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.nav .sub-menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 10rem;
+    background: #000230;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(0, -10px);
+    transition: transform .3s ease, opacity .3s ease, visibility 0s linear .3s;
+}
+.nav ul li{
+    margin: 20px 50px;
+    position: relative;
+}
+.sub-menu li{
+    padding: 10px 0;
+}
+.nav ul li:hover > .sub-menu{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: transform .3s ease, opacity .3s ease, visibility 0s linear;
+}
+
+h1 {
+	font-family: 'Roboto';
+}
+h2 {
+	font-family: 'Roboto';
+}
+h3 {
+	font-family: 'Roboto';
+}
+a {
+	font-family: 'Roboto';
+}
+p {
+	font-family: 'Roboto';
+}
+
+.banner{
+	font-family: Verdana;
+    text-decoration:none;
+    width: 100%;
+    height: 850px;
+    align-items: center;
+	position: relative;
+	text-align: center;
+    background-image: url(Family-leisure.jpg);
+    background-size: cover;
+}
+
+.cars-list1{
+	display: flex;
+	flex-direction: row;
+}
+.cars-list2{
+	display: flex;
+	flex-direction: row;
+}
+.cars-list3{
+	display: flex;
+	flex-direction: row;
+}
+.cars-list4{
+	display: flex;
+	flex-direction: row;
+}
+.car-card1{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card2{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card3{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card4{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card5{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card6{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card7{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card8{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card9{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card10{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card11{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-card12{
+	border: solid rgb(73, 73, 73);
+	border-radius: 4%;
+	margin: 1rem;
+}
+.car-content{
+	padding: 20px;
+}
+.car-photo{
+	width: 400px;
+	min-height: 170px;
+}
+.padding{
+	padding: 50px;
+}
+
+
+.footer{
+    max-width: 100%;
+    color: #a0a0a0;
+    background-color: #000124;
+    font-family: Arial;
+}
+.footer .noindex{
+    margin: 50px;
+    padding: 50px 30px;
+}
